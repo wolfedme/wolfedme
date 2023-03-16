@@ -1,16 +1,19 @@
-### Hi there 👋
+### Hey there!
+```rust
+pub trait SoftwareEngineer{}
+struct MaximilianWolf {
+    role: Vec<String>,
+    coding_skills: Vec<String>,
+    locale: Vec<String>,
+}
 
-<!--
-**wolfedme/wolfedme** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+impl SoftwareEngineer for MaximilianWolf {
+    fn get() -> Self {
+        MaximilianWolf {
+            role: vec!["Software Engineer", "IT Consultant", "Full Stack Dev"],
+            coding_skills: vec!["Java", "Rust", "TypeScript", "Python"],
+            locale: vec!["de_DE", "en_EN"],
+        }
+    }
+}
+```
